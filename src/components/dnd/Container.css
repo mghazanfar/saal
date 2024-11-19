@@ -1,0 +1,85 @@
+.Container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 450px;
+    background: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebarSection {
+    margin-bottom: 16px;
+  }
+  
+  .sectionTitle {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  
+  .sectionItems {
+    margin-left: 16px;
+  }
+  
+  .gridArea {
+    width: 75%;
+    position: relative;
+    background: #e0f7fa;
+    overflow: hidden;
+    border: 2px dashed #ccc;
+  }
+  
+  .gridItemContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #00796b;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  
+  
+  .dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+  }
+  
+  .dataTable th,
+  .dataTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dataTable th {
+    background: #00796b;
+    color: white;
+  }
+  
+  .removeButton {
+    padding: 5px;
+    background: #e53935;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .react-resizable-handle {
+    width: 10px;
+    height: 10px;
+    background: #00796b;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+  }
+  
